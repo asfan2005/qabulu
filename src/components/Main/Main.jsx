@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import builogo from "../../images/builogo.jpg"
 const Main = () => {
   return (
     <main className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
@@ -85,7 +85,7 @@ const Main = () => {
                 {/* Main image container */}
                 <div className="relative group">
                   <img 
-                    src="/src/images/builogo.jpg" 
+                    src={builogo} 
                     alt="BUI Logo" 
                     className="w-full h-auto rounded-full shadow-2xl hover:scale-105 transition-all duration-500 border-2 sm:border-4 border-white group-hover:border-yellow-300 min-h-[200px] sm:min-h-[250px] md:min-h-[300px] object-cover"
                   />
